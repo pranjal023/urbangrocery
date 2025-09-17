@@ -1,0 +1,28 @@
+# dependencies & builds
+node_modules/
+dist/
+build/
+coverage/
+
+# local/editor
+.DS_Store
+*.log
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# env files (keep examples tracked)
+.env
+.env.*
+client/.env
+client/.env.*
+server/.env
+server/.env.*
+
+# keep example envs
+!client/.env.example
+!server/.env.example
+
+# host deploy metadata
+.vercel/
+.render/
